@@ -6,7 +6,8 @@ let Restaurant = sequelize.define('restaurant',
     {
         name: Sequelize.STRING,
         location: Sequelize.STRING,
-        cuisine: Sequelize.STRING
+        cuisine: Sequelize.STRING,
+        rating: Sequelize.INTEGER
     }
 );
 
